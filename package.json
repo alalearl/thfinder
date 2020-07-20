@@ -2,7 +2,7 @@
   "name": "thfinder",
   "version": "1.0.0",
   "description": "Thai City Finder ",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/aruresto/thfinder.git",
   "author": "Pongparit Paocharoen",
   "license": "MIT"
