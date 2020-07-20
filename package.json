@@ -1,9 +1,9 @@
 {
   "name": "thfinder",
   "version": "1.0.0",
-  "description": "Thai City Finder ",
+  "description": "Thailand Function Helper Address",
   "main": "src/index.js",
   "repository": "https://github.com/aruresto/thfinder.git",
-  "author": "Pongparit Paocharoen",
+  "author": "Pongparit <Pongparit.p@kisracorp.com>",
   "license": "MIT"
 }

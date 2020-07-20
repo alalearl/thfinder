@@ -1,7 +1,5 @@
 const finder = require("./finder");
 
-console.log(finder.getProvinces());
-
 /**
  * Function for get provinces data
  * @return { Array<{code: Number, name: String}> }
