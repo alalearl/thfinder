@@ -41,7 +41,10 @@ const getCitiesByProvince = (province = null) => {
       isNaN(province) ? th.province === province : th.province_code === province
     );
   }
-  return result.map((th) => ({ name: th.amphoe, code: th.amphoe_code }));
+  return utils.uniq_array(
+    result.map((th) => ({ name: th.amphoe, code: th.amphoe_code })),
+    true
+  );
 };
 
 /**
